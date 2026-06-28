@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mca-manipal",
+    "degree": "MCA",
+    "field": "Computer Science",
+    "institution": "Manipal University Jaipur",
+    "startDate": "2022-03",
+    "endDate": "2024-04",
+    "score": "CGPA 8.48 / 10.0",
+    "scoreLabel": "CGPA"
+  },
+  {
+    "id": "bsc-sri-dev-suman",
+    "degree": "B.Sc.",
+    "field": "Science",
+    "institution": "Sri Dev Suman Uttarakhand University",
+    "startDate": "2018-08",
+    "endDate": "2021-12",
+    "score": "65%",
+    "scoreLabel": "Aggregate"
+  }
+]

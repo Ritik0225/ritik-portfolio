@@ -1,0 +1,51 @@
+[
+  {
+    "id": "woco-junior-software-engineer",
+    "role": "Junior Software Engineer",
+    "company": "Impulse International / Woco",
+    "type": "Full-time",
+    "location": "Gurugram, India",
+    "startDate": "2024-06",
+    "endDate": "Present",
+    "description": "Building scalable HRMS and SaaS modules across the MERN stack, leading Shopify development for sister brands, and shipping SEO-first Next.js landing pages.",
+    "responsibilities": [
+      "Designed and shipped scalable HRMS modules — Document Directory, Offboarding, and Expense Reports — on the MERN stack",
+      "Architected a Performance Management System (PMS) on MERN + TypeScript with structured evaluation workflows",
+      "Built REST APIs in Node.js and Express for employee lifecycle, configuration, goal tracking, and reviews",
+      "Implemented a Shift Week Roster module that cut manual scheduling time by 40%",
+      "Integrated Jira with the internal Woco Support system via API-based bi-directional sync",
+      "Led Shopify development for sister brands Somersault and Aquatan — dynamic sections, new features, and critical bug fixes",
+      "Built SEO-friendly, responsive Next.js landing pages and optimized for load speed, SEO, and cross-browser compatibility",
+      "Designed MongoDB schemas for scalable storage and efficient querying, and reviewed code for performance and maintainability"
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Material UI",
+      "Shopify Liquid"
+    ]
+  },
+  {
+    "id": "zonzo-software-developer-intern",
+    "role": "Software Developer Intern",
+    "company": "The Zonzo",
+    "type": "Internship",
+    "location": "Remote",
+    "startDate": "2023-10",
+    "endDate": "2024-05",
+    "description": "Contributed to a SaaS product for the hospitality industry — feature design, implementation, and iteration cycles.",
+    "responsibilities": [
+      "Built user-centric modules that improved operational efficiency and client satisfaction",
+      "Developed and optimized the marketing site for responsiveness and accessibility across devices",
+      "Engaged in software testing, debugging, and routine maintenance to keep downtime minimal",
+      "Collaborated with the product team across feature ideation, implementation, and review"
+    ],
+    "technologies": ["React", "JavaScript", "HTML", "CSS", "Node.js"]
+  }
+]

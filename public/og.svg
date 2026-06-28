@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070B14"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="950" cy="160" r="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <text x="80" y="240" font-family="Inter, system-ui, sans-serif" font-size="32" fill="#22D3EE" font-weight="500" letter-spacing="8">FULL STACK DEVELOPER</text>
+  <text x="80" y="340" font-family="Inter, system-ui, sans-serif" font-size="80" fill="#F1F5F9" font-weight="700">Ritik Dhiman</text>
+  <text x="80" y="420" font-family="Inter, system-ui, sans-serif" font-size="36" fill="url(#brand)" font-weight="600">Building scalable, high-performance web applications.</text>
+  <text x="80" y="540" font-family="JetBrains Mono, monospace" font-size="20" fill="#94A3B8">MERN · Shopify · Next.js · TypeScript</text>
+  <rect x="1064" y="60" width="56" height="56" rx="10" fill="url(#brand)"/>
+  <text x="1092" y="100" font-family="Inter, sans-serif" font-size="32" fill="#fff" font-weight="800" text-anchor="middle">R</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" width="640" height="800" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#262220"/>
+      <stop offset="1" stop-color="#161412"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="0.5" cy="0.36" r="0.64">
+      <stop offset="0" stop-color="#4c443b"/>
+      <stop offset="0.62" stop-color="#2a2622" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2a2622" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fig" x1="0.32" y1="0" x2="0.68" y2="1">
+      <stop offset="0" stop-color="#75695c"/>
+      <stop offset="1" stop-color="#3f3832"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#bg)"/>
+  <rect width="640" height="800" fill="url(#spot)"/>
+  <!-- shoulders (extends past the viewBox bottom — clipped to the frame) -->
+  <ellipse cx="320" cy="865" rx="282" ry="480" fill="url(#fig)"/>
+  <!-- head -->
+  <circle cx="320" cy="300" r="122" fill="url(#fig)"/>
+</svg>

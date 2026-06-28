@@ -1,0 +1,64 @@
+[
+  {
+    "category": "Frontend",
+    "title": "Frontend Engineering",
+    "description": "Modern React and Next.js work with a focus on performance, accessibility, and refined UX.",
+    "skills": [
+      { "name": "React", "level": 90, "years": 2 },
+      { "name": "Next.js", "level": 86, "years": 2 },
+      { "name": "TypeScript", "level": 84, "years": 2 },
+      { "name": "JavaScript", "level": 92, "years": 3 },
+      { "name": "Tailwind CSS", "level": 90, "years": 2 },
+      { "name": "Material UI", "level": 82, "years": 2 },
+      { "name": "Bootstrap", "level": 78, "years": 2 },
+      { "name": "Redux Toolkit", "level": 80, "years": 1 },
+      { "name": "HTML / CSS", "level": 92, "years": 3 }
+    ]
+  },
+  {
+    "category": "Backend",
+    "title": "Backend Engineering",
+    "description": "Production REST APIs in Node.js — auth, RBAC, workflow logic, and integrations.",
+    "skills": [
+      { "name": "Node.js", "level": 86, "years": 2 },
+      { "name": "Express.js", "level": 86, "years": 2 },
+      { "name": "REST API Design", "level": 84, "years": 2 },
+      { "name": "Authentication / RBAC", "level": 82, "years": 2 },
+      { "name": "Workflow Engines", "level": 78, "years": 1 }
+    ]
+  },
+  {
+    "category": "Database",
+    "title": "Data & Storage",
+    "description": "Schema design and indexing strategies tuned to real query shapes.",
+    "skills": [
+      { "name": "MongoDB", "level": 86, "years": 2 },
+      { "name": "Mongoose", "level": 84, "years": 2 },
+      { "name": "SQL", "level": 70, "years": 2 }
+    ]
+  },
+  {
+    "category": "Shopify",
+    "title": "Shopify Ecosystem",
+    "description": "Theme development and storefront work for DTC brands.",
+    "skills": [
+      { "name": "Shopify Liquid", "level": 84, "years": 1 },
+      { "name": "Theme Sections / Blocks", "level": 82, "years": 1 },
+      { "name": "Metafields", "level": 78, "years": 1 },
+      { "name": "Shopify Admin", "level": 76, "years": 1 }
+    ]
+  },
+  {
+    "category": "Dev Tools",
+    "title": "Tooling & Workflow",
+    "description": "Day-to-day tooling that keeps shipping consistent and fast.",
+    "skills": [
+      { "name": "Git & GitHub", "level": 90, "years": 3 },
+      { "name": "VS Code", "level": 92, "years": 3 },
+      { "name": "Git Bash", "level": 86, "years": 3 },
+      { "name": "Figma", "level": 78, "years": 2 },
+      { "name": "Java", "level": 68, "years": 1 },
+      { "name": "Python", "level": 66, "years": 1 }
+    ]
+  }
+]

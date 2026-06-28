@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t1",
+    "name": "Maya Chen",
+    "role": "Head of Product",
+    "company": "Atlas DTC",
+    "quote": "One of the most thoughtful engineers we've worked with. Ships fast, but the architecture is always sound — we didn't have to revisit decisions later."
+  },
+  {
+    "id": "t2",
+    "name": "Daniel Roy",
+    "role": "Engineering Manager",
+    "company": "Veridian",
+    "quote": "Took a half-baked spec and turned it into a production-grade analytics pipeline. Strong ownership, strong instincts, and great taste in UI."
+  },
+  {
+    "id": "t3",
+    "name": "Priya Shah",
+    "role": "Founder",
+    "company": "Northwind",
+    "quote": "Our checkout conversion is up 18% and the codebase is finally something the next dev can actually read. Genuinely top-tier work."
+  }
+]

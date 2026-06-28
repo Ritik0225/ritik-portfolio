@@ -1,0 +1,231 @@
+[
+  {
+    "slug": "promanage",
+    "title": "Promanage",
+    "tagline": "Full-stack project management platform on the MERN stack",
+    "description": "A project management system for tracking tasks, user roles, and workflows — built with the MERN stack and TypeScript, Redux Toolkit for state, and Tailwind for the UI.",
+    "thumbnail": "/projects/promanage-thumb.jpg",
+    "category": "MERN",
+    "featured": true,
+    "year": "2024",
+    "role": "Full Stack Developer",
+    "stack": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Redux Toolkit", "Tailwind CSS"],
+    "metrics": [
+      { "label": "Stack", "value": "MERN + TS" },
+      { "label": "State", "value": "Redux Toolkit" },
+      { "label": "UI", "value": "Tailwind" }
+    ],
+    "problem": "Small teams need a lightweight, opinionated way to plan work, assign roles, and track workflow without paying for enterprise tooling.",
+    "architecture": "A typed REST API in Node.js + Express talking to MongoDB via Mongoose, with a React + TypeScript frontend. Redux Toolkit owns server-cache state, with a Tailwind-driven UI and role-based access enforced both client- and server-side.",
+    "features": [
+      "Task management with assignees, due dates, and status workflows",
+      "User roles and permission-aware UI",
+      "RESTful API for tasks, users, and workflow tracking",
+      "Scalable MongoDB schemas tuned for the dashboard query shape",
+      "Responsive Tailwind UI"
+    ],
+    "challenges": [
+      "Keeping the API surface coherent as features grew",
+      "Modeling workflow transitions without leaking enforcement to the client"
+    ],
+    "solutions": [
+      "Defined typed contracts shared by client and server to keep the API consistent",
+      "Centralized workflow rules in a single service layer, exposed via narrow endpoints"
+    ],
+    "optimizations": [
+      "Composite indexes on the dashboard query shape",
+      "Selective Redux subscription to minimize re-renders"
+    ],
+    "screenshots": [],
+    "repoUrl": "https://github.com/ritik0225/promanage"
+  },
+  {
+    "slug": "woco-hrms-platform",
+    "title": "Woco HRMS Platform",
+    "tagline": "Multi-module HRMS on the MERN stack",
+    "description": "A production HRMS at Woco — Document Directory, Offboarding, and Expense Reports modules — designed for the full employee lifecycle with role-based access and audited workflows.",
+    "thumbnail": "/projects/woco-hrms-thumb.jpg",
+    "category": "Full Stack",
+    "featured": true,
+    "year": "2024",
+    "client": "Impulse International / Woco",
+    "role": "Junior Software Engineer",
+    "stack": ["React", "Node.js", "Express", "MongoDB", "TypeScript", "Material UI"],
+    "metrics": [
+      { "label": "Modules", "value": "3" },
+      { "label": "Roles", "value": "RBAC" },
+      { "label": "Stack", "value": "MERN" }
+    ],
+    "problem": "Internal HR workflows were fragmented across tools — document handling, offboarding, and expense reporting needed a single, role-aware platform.",
+    "architecture": "Modular MERN architecture with a shared auth/RBAC layer. Express services expose REST APIs per module, MongoDB stores documents with version metadata, and the React frontend renders role-scoped views from a unified design system.",
+    "features": [
+      "Document Directory with structured metadata and access control",
+      "Offboarding workflow with task checklists and approvals",
+      "Expense Reports with attachment handling and review flows",
+      "Role-based access enforced server-side, mirrored in the UI",
+      "Audit-friendly event logging"
+    ],
+    "challenges": [
+      "Modeling distinct workflows without forking the auth and audit stack",
+      "Designing schemas flexible enough for future modules"
+    ],
+    "solutions": [
+      "Extracted a shared workflow engine and reused it across modules",
+      "Introduced a metadata-first document model that downstream modules can extend"
+    ],
+    "optimizations": [
+      "Indexed compound fields used in scope-checks to keep RBAC fast",
+      "Lazy module routes to keep initial JS small"
+    ],
+    "screenshots": [],
+    "confidential": true
+  },
+  {
+    "slug": "performance-management-system",
+    "title": "Performance Management System (PMS)",
+    "tagline": "Structured employee evaluation workflows on MERN + TypeScript",
+    "description": "A PMS module at Woco enabling configurable review cycles, goal tracking, and evaluation workflows — built end-to-end with strongly-typed APIs and a schema designed for long-term reporting.",
+    "thumbnail": "/projects/pms-thumb.jpg",
+    "category": "Full Stack",
+    "featured": true,
+    "year": "2024",
+    "client": "Impulse International / Woco",
+    "role": "Junior Software Engineer",
+    "stack": ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
+    "metrics": [
+      { "label": "Cycle Config", "value": "Dynamic" },
+      { "label": "Stack", "value": "MERN + TS" },
+      { "label": "Reports", "value": "Goal + Review" }
+    ],
+    "problem": "Performance reviews ran in spreadsheets and email — slow, inconsistent, and impossible to report on at scale.",
+    "architecture": "REST APIs in Node.js/Express expose configuration, goal tracking, and review endpoints; MongoDB schemas are designed for both the operational flow and downstream reporting. A typed shared contract drives the React client.",
+    "features": [
+      "Configurable review cycles and rubrics",
+      "Goal tracking with progress checkpoints",
+      "Manager / employee / HR review flows",
+      "Typed API contracts shared with the frontend"
+    ],
+    "challenges": [
+      "Modeling reviews so historical cycles remain queryable as the rubric evolves",
+      "Coordinating multi-party review state without race conditions"
+    ],
+    "solutions": [
+      "Versioned rubric snapshots stored alongside each cycle",
+      "State machine governing transitions, with idempotent endpoints for each step"
+    ],
+    "optimizations": [
+      "Aggregation pipelines for the reporting dashboard",
+      "Indexes tuned for cycle + employee lookups"
+    ],
+    "screenshots": [],
+    "confidential": true
+  },
+  {
+    "slug": "shift-week-roster",
+    "title": "Shift Week Roster",
+    "tagline": "Smarter shift scheduling — 40% less manual planning",
+    "description": "A scheduling module that replaced a manual spreadsheet workflow with a structured weekly roster — cutting planning time by 40% and reducing scheduling conflicts.",
+    "thumbnail": "/projects/shift-roster-thumb.jpg",
+    "category": "Full Stack",
+    "featured": false,
+    "year": "2025",
+    "client": "Impulse International / Woco",
+    "role": "Junior Software Engineer",
+    "stack": ["React", "Node.js", "Express", "MongoDB", "TypeScript"],
+    "metrics": [
+      { "label": "Planning Time", "value": "-40%" },
+      { "label": "Conflict Checks", "value": "Real-time" },
+      { "label": "Module", "value": "HRMS" }
+    ],
+    "problem": "Weekly shift planning was a spreadsheet-driven manual process — slow, error-prone, and hard to audit when conflicts arose.",
+    "architecture": "A dedicated scheduling service in Node.js handles roster generation and validation; constraint checks run server-side, and a React grid renders the editable weekly view. State is normalized in MongoDB with indexes optimized for week- and employee-level reads.",
+    "features": [
+      "Drag-friendly weekly grid with employee + shift dimensions",
+      "Real-time conflict and overlap detection",
+      "Bulk operations across weeks and employees",
+      "Audit trail of changes"
+    ],
+    "challenges": [
+      "Detecting overlaps and rule violations without bottlenecking edits"
+    ],
+    "solutions": [
+      "Validation moved to a per-cell server check with debounced batching"
+    ],
+    "optimizations": [
+      "Indexed compound keys on (week, employee) for fast roster reads"
+    ],
+    "screenshots": [],
+    "confidential": true
+  },
+  {
+    "slug": "jira-woco-support-integration",
+    "title": "Jira ↔ Woco Support Integration",
+    "tagline": "API-based sync between Jira and an internal support system",
+    "description": "A bi-directional sync between Jira and Woco's internal support system — keeping tickets, status, and comments coherent across both tools and improving issue visibility for the team.",
+    "thumbnail": "/projects/jira-thumb.jpg",
+    "category": "Backend",
+    "featured": false,
+    "year": "2024",
+    "client": "Impulse International / Woco",
+    "role": "Junior Software Engineer",
+    "stack": ["Node.js", "Express", "MongoDB", "Jira REST API"],
+    "metrics": [
+      { "label": "Sync", "value": "Bi-directional" },
+      { "label": "Surface", "value": "Tickets + status" },
+      { "label": "Reliability", "value": "Retry-safe" }
+    ],
+    "problem": "Issues were tracked in two places — Jira and Woco's support system — leading to duplicated work and inconsistent status across the team.",
+    "architecture": "An integration service consumes Jira webhooks and Woco events, normalizing them through a sync engine. Idempotency keys and version vectors prevent loops and conflicting updates.",
+    "features": [
+      "Two-way sync of tickets, status, and comments",
+      "Idempotent event handlers with retry and dead-letter queue",
+      "Configurable field mapping per project"
+    ],
+    "challenges": [
+      "Preventing echo loops when both systems emit change events"
+    ],
+    "solutions": [
+      "Per-record version vectors plus source-tagging to short-circuit re-emits"
+    ],
+    "optimizations": [
+      "Coalesced bursty webhook traffic into batched writes"
+    ],
+    "screenshots": [],
+    "confidential": true
+  },
+  {
+    "slug": "somersault-aquatan-shopify",
+    "title": "Somersault & Aquatan — Shopify Storefronts",
+    "tagline": "Shopify development for sister DTC brands",
+    "description": "Led Shopify development for Woco's sister brands Somersault and Aquatan — building dynamic sections, shipping new features, and fixing critical bugs to lift performance and storefront UX.",
+    "thumbnail": "/projects/shopify-thumb.jpg",
+    "category": "Shopify",
+    "featured": true,
+    "year": "2025",
+    "client": "Impulse International / Woco",
+    "role": "Shopify Developer",
+    "stack": ["Shopify Liquid", "JavaScript", "HTML", "CSS", "Shopify Admin"],
+    "metrics": [
+      { "label": "Brands", "value": "2" },
+      { "label": "Focus", "value": "DTC" },
+      { "label": "Surface", "value": "Storefront" }
+    ],
+    "problem": "Two DTC storefronts shared similar mechanics but each needed dedicated dynamic sections and feature work — without slowing pages down.",
+    "architecture": "Modular Liquid sections backed by metafield-driven content, paired with a lean JS layer for interactivity. Reusable schema blocks make merchandising changes safe in the theme editor.",
+    "features": [
+      "Custom dynamic sections (heroes, story blocks, product cards) editable from the theme editor",
+      "Metafield-driven content for richer PDPs",
+      "Performance and bug fixes across both storefronts"
+    ],
+    "challenges": [
+      "Sharing logic across two themes without coupling them"
+    ],
+    "solutions": [
+      "Extracted shared snippets behind small adapters per brand to keep theming independent"
+    ],
+    "optimizations": [
+      "Deferred non-critical JS, image preloading on PDP, and section-level lazy rendering"
+    ],
+    "screenshots": []
+  }
+]

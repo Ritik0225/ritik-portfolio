@@ -1,0 +1,20 @@
+[
+  {
+    "platform": "github",
+    "label": "GitHub",
+    "handle": "@ritik0225",
+    "url": "https://github.com/ritik0225"
+  },
+  {
+    "platform": "linkedin",
+    "label": "LinkedIn",
+    "handle": "/in/ritik-dhiman",
+    "url": "https://www.linkedin.com/in/ritik-dhiman-bb5a15191/"
+  },
+  {
+    "platform": "email",
+    "label": "Email",
+    "handle": "dhimanritik0225@gmail.com",
+    "url": "mailto:dhimanritik0225@gmail.com"
+  }
+]
