@@ -27,7 +27,7 @@ export function TextReveal({ lines, className, highlightLast = true }: TextRevea
   return (
     <motion.h1
       className={cn(
-        "text-display-md font-semibold leading-[1.05] tracking-tight text-balance",
+        "text-display-md font-semibold leading-[1.2] tracking-tight text-balance",
         className,
       )}
       variants={container}

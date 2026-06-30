@@ -2,8 +2,8 @@
   "name": "Ritik Dhiman",
   "shortName": "Ritik",
   "role": "Full Stack Developer",
-  "tagline": "Building scalable, high-performance web applications.",
-  "bio": "MERN stack developer with 1.9+ years building production HRMS and SaaS platforms at Woco. I design REST APIs, role-based workflows, and performant Next.js frontends — focused on writing clean, maintainable code and solving real-world scalability problems.",
+  "tagline": "Building scalable, high-performance SaaS systems with real-world impact.",
+  "bio": "MERN stack developer with 2+ years building production HRMS and SaaS platforms at Woco. I design REST APIs, role-based workflows, and performant Next.js frontends — focused on writing clean, maintainable code and solving real-world scalability problems.",
   "location": "Gurugram, India",
   "email": "dhimanritik0225@gmail.com",
   "phone": "+91 70603 93677",
@@ -11,8 +11,8 @@
   "resumeUrl": "/resume.pdf",
   "avatarUrl": "/myphoto.png",
   "metrics": [
-    { "label": "Experience", "value": "1.9+" },
-    { "label": "Modules Shipped", "value": "8+" },
+    { "label": "Experience", "value": "2+" },
+    { "label": "Modules Shipped", "value": "10+" },
     { "label": "Time Saved", "value": "40%" },
     { "label": "Reply Time", "value": "< 24h" }
   ]

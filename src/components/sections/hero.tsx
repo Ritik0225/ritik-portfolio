@@ -51,12 +51,13 @@ export function Hero() {
               </span>
             </motion.span>
 
-            <div className="mt-6">
+            <div className="mt-4">
               <TextReveal
                 lines={[
                   "Building scalable,",
-                  "high-performance",
-                  "web applications.",
+                  "high-performance,",
+                  "SaaS systems",
+                  "with AI Integration.",
                 ]}
               />
             </div>
@@ -67,13 +68,12 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.55 }}
               className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg text-pretty"
             >
-              Full-stack engineer. I design APIs, model data, ship workflows,
-              and integrate AI — across{" "}
-              <span className="font-mono text-foreground/90">MERN</span>,{" "}
+              I design and ship production-grade applications powered by modern architectures, automation workflows, and AI-driven enhancements.{" "}
+              {/* <span className="font-mono text-foreground/90">MERN</span>,{" "}
               <span className="font-mono text-foreground/90">Next.js</span>,
               and the{" "}
               <span className="font-mono text-foreground/90">Shopify</span>{" "}
-              ecosystem.
+              ecosystem. */}
             </motion.p>
 
             <motion.div
@@ -113,7 +113,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.9 }}
-              className="mt-12 grid max-w-xl grid-cols-2 gap-x-8 gap-y-4 border-t border-border/60 pt-6 sm:grid-cols-4"
+              className="mt-8 grid max-w-xl grid-cols-2 gap-x-8 gap-y-4 border-t border-border/60 pt-6 sm:grid-cols-4"
             >
               {personal.metrics.map((m) => (
                 <div key={m.label} className="flex flex-col-reverse gap-1">
@@ -193,7 +193,7 @@ function HeroPhoto() {
       </div>
 
       {/* Availability chip */}
-      <div className="absolute -bottom-3 left-4 flex items-center gap-2 rounded-full border border-border bg-background/80 px-3 py-1.5 text-xs backdrop-blur-md">
+      <div className="absolute bottom-3 left-4 flex items-center gap-2 rounded-full border border-border bg-background/80 px-3 py-1.5 text-xs backdrop-blur-md">
         <span className="relative flex h-1.5 w-1.5">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/60 opacity-60" />
           <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
