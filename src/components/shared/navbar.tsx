@@ -95,7 +95,7 @@ export function Navbar() {
 
           {/* Actions */}
           <div className="flex items-center gap-1.5">
-            <button
+            {/* <button
               type="button"
               onClick={openCommandPalette}
               aria-label="Open command palette"
@@ -103,7 +103,7 @@ export function Navbar() {
             >
               <Command className="h-3.5 w-3.5" />
               <span className="font-mono">⌘K</span>
-            </button>
+            </button> */}
             <ThemeToggle />
             <Button asChild size="sm" className="hidden sm:inline-flex">
               <a href={personal.resumeUrl} download>

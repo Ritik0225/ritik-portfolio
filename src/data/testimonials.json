@@ -1,23 +1,23 @@
 [
   {
     "id": "t1",
-    "name": "Maya Chen",
-    "role": "Head of Product",
-    "company": "Atlas DTC",
-    "quote": "One of the most thoughtful engineers we've worked with. Ships fast, but the architecture is always sound — we didn't have to revisit decisions later."
+    "name": "Aashutosh yadav",
+    "role": "Tech Lead",
+    "company": "Woco",
+    "quote": "Ritik consistently delivered features on time and handled both frontend and backend responsibilities effectively."
   },
   {
     "id": "t2",
-    "name": "Daniel Roy",
-    "role": "Engineering Manager",
-    "company": "Veridian",
-    "quote": "Took a half-baked spec and turned it into a production-grade analytics pipeline. Strong ownership, strong instincts, and great taste in UI."
+    "name": "Ranjeet jha",
+    "role": "Shopify Store Owner",
+    "company": "The Bihar's Pride",
+    "quote": "Ritik helped us customize, develop new dynamic sections for our store and fix key issues. Communication was smooth and work was delivered as expected."
   },
   {
-    "id": "t3",
-    "name": "Priya Shah",
-    "role": "Founder",
-    "company": "Northwind",
-    "quote": "Our checkout conversion is up 18% and the codebase is finally something the next dev can actually read. Genuinely top-tier work."
-  }
+  "id": "t4",
+  "name": "Anurag yadav",
+  "role": "UI/UX Designer",
+  "company": "Nuumaaish designs",
+  "quote": "Worked with Ritik on multiple Shopify projects where I handled the UI/UX and he took care of the full development. From research and planning to implementing features and app integrations, he handled everything end-to-end. We collaborated on brands like Faura, Totimod, and Mishra Sports, and the execution was always smooth and reliable."
+}
 ]
